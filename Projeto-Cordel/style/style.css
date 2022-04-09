@@ -16,7 +16,7 @@
 .container-base{
     max-width: 1000px;
     margin: auto;
-    background-color: aqua;
+    background-color: whitesmoke; 
 }
 
 .container{
@@ -24,15 +24,29 @@
     margin: auto;
     padding: 20px;
     margin-bottom: 10px;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .bg{
     max-width: 1000px;
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .bg2{
     max-width: 1000%;
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+main{
+    background-color: blanchedalmond;
 }
 
 header,footer{
@@ -59,9 +73,26 @@ a:hover{
 
  p{
     width: 700px;
-    margin: auto;
     font-family: var(--fonte2);
     font-size: 1.5em;
     line-height: 35px;
+    text-indent: 30px;
+}
+
+.bg p{
+    max-width: 400px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.bg2 p{
+    max-width: 400px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    padding: 20px;
 }
 
