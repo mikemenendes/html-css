@@ -60,6 +60,10 @@ header h1{
     font-size: 3em;
 }
 
+header p{
+    margin: auto;
+}
+
 a{
     text-decoration: none;
     color: rgb(153, 149, 149);
@@ -96,3 +100,8 @@ a:hover{
     padding: 20px;
 }
 
+footer p{
+    font-size: 1em;
+    font-family: var(--fonte1);
+    margin: auto;
+}
