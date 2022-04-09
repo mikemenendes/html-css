@@ -12,3 +12,56 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
+.container-base{
+    max-width: 1000px;
+    margin: auto;
+    background-color: aqua;
+}
+
+.container{
+     max-width: 900px; 
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: yellow;
+}
+
+.bg{
+    max-width: 1000px;
+}
+
+.bg2{
+    max-width: 1000%;
+}
+
+header,footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(153, 149, 149);
+}
+
+a:hover{
+    color: rgba(243, 243, 113, 0.705);
+    text-decoration: underline;
+}
+
+
+ p{
+    width: 700px;
+    margin: auto;
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    line-height: 35px;
+}
+
